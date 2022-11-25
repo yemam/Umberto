@@ -61,4 +61,18 @@ for x in numeri:
     numeri = numeri_dispari
 print(numeri)
 
+print ("##############")
 
+
+Numeri = []
+kenawi = 0
+
+for i in range(50):
+    Numeri.append(random.randint(1, 100))
+
+for x in Numeri:
+    if x > 50 or x < 10:
+        print(x)
+        kenawi = kenawi + 1
+
+print(kenawi)
