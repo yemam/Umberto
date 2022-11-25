@@ -52,4 +52,13 @@ print ("##############")
 
 
 numeri = []
+for i in range(50):
+    numeri.append(random.randint(0, 1000))
+    numeri_dispari = []
+for x in numeri:
+    if x%2 == 1:
+        numeri_dispari.append(x)
+    numeri = numeri_dispari
+print(numeri)
+
 
