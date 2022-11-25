@@ -34,5 +34,22 @@ else:
         print(x)
         
 
+print ("##############")
 
+
+ 
+ 
+auto = ["ferrari", "Honda", "porsche", "Alfa Romeo", "BMW"]
+moto = ["KTM", "Yamaha", "Kawasaki", "Ducati"]
+listona =  auto +  moto
+
+listona.sort()
+print(listona)
+
+
+print ("##############")
+
+
+
+numeri = []
 
